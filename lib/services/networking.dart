@@ -9,7 +9,7 @@ class CountryModel{
       final List<dynamic> data = json.decode(response.body);
       return data.map((e) => e as Map<String, dynamic>).toList();
     } else {
-      throw Exception('Failed to load country data');
+      throw Exception('Failed to load country data'); 
     }
   }
 }
