@@ -28,25 +28,25 @@ Follow these steps to set up and run the application locally:
    git clone https://github.com/yourusername/your-repository.git
    cd your-repository
 
-Dependencies
+## Dependencies
 
-This project uses the following dependencies:
+- This project uses the following dependencies:
 
-http: For making HTTP requests
-provider: For state management
-flutter/material.dart: For building UI components
-You can find all dependencies in the pubspec.yaml file.
+- http: For making HTTP requests
+- provider: For state management
+- flutter/material.dart: For building UI components
+- You can find all dependencies in the pubspec.yaml file.
 
-Install project dependencies:
+## Install project dependencies:
 
-Navigate to the project directory and install the required dependencies:
-flutter pub get
+- Navigate to the project directory and install the required dependencies:
+- flutter pub get
 
-Running the App
+## Running the App
 
-Run on an emulator or connected device:
-Ensure you have an emulator running or a device connected, then run:
-flutter run
+- Run on an emulator or connected device:
+- Ensure you have an emulator running or a device connected, then run:
+- flutter run
 
 A few resources to get you started if this is your first Flutter project:
 
